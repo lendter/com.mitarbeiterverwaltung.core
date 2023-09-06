@@ -1,0 +1,8 @@
+verwaltung\SchichtArbeiter.class
+verwaltung\Manager.class
+verwaltung\BueroArbeiter.class
+cli\VerwaltungHandler.class
+module-info.class
+verwaltung\Mitarbeiter.class
+cli\Program.class
+verwaltung\Abteilung.class
