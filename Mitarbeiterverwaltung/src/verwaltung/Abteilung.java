@@ -45,7 +45,7 @@ public class Abteilung {
 			sb.append(arbeiter.toString() + "\n");
 			gehalt += arbeiter.einkommen();
 		}
-		sb.append(this.leiter.einkommen());
+		sb.append(this.leiter.toString()+ "\n");
 		gehalt += this.leiter.einkommen();
 		sb.append("Insgesamt Gehaelter: "+ gehalt);
 		System.out.println(sb.toString());
