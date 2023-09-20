@@ -27,6 +27,6 @@ public class Manager extends BueroArbeiter{
 
 	@Override
 	public String toString() {
-		return "Manager: "+ super.getName() +" verdient " +einkommen();
+		return "<Manager>"+ super.getName() +" verdient " +einkommen();
 	}
 }

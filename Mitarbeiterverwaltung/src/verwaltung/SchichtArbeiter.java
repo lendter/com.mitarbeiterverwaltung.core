@@ -33,6 +33,6 @@ public class SchichtArbeiter extends Mitarbeiter {
 
 	@Override
 	public String toString() {
-		return "SchichtArbeiter: "+super.getName()+ " verdient "+ this.einkommen();
+		return "<SchichtArbeiter>"+super.getName()+ " verdient "+ this.einkommen();
 	}
 }
