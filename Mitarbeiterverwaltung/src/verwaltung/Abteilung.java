@@ -1,7 +1,5 @@
 package verwaltung;
 
-import java.nio.ByteBuffer;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -47,6 +45,8 @@ public class Abteilung {
 			sb.append(arbeiter.toString() + "\n");
 			gehalt += arbeiter.einkommen();
 		}
+		sb.append(this.leiter.einkommen());
+		gehalt += this.leiter.einkommen();
 		sb.append("Insgesamt Gehaelter: "+ gehalt);
 		System.out.println(sb.toString());
 		return sb.toString();

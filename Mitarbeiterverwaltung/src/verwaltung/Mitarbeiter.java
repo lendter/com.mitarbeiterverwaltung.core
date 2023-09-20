@@ -18,7 +18,7 @@ public abstract class Mitarbeiter {
 		return "Mitarbeiter [id=" + getId() + ", name=" + getName() + "]";
 	}
 
-	public int getId() {
+	protected int getId() {
 		return id;
 	}
 

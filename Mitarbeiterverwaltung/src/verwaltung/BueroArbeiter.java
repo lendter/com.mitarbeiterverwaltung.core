@@ -23,7 +23,7 @@ public class BueroArbeiter extends Mitarbeiter{
 
 	@Override
 	public String toString() {
-		return "BueroArbeiter: "+ super.getName() +" verdient "+ einkommen();
+		return "<BueroArbeiter>"+ super.getName() +" verdient "+ einkommen();
 	}
 
 }
