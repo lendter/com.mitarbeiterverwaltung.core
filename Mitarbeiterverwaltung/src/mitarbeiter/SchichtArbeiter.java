@@ -1,4 +1,6 @@
-package verwaltung;
+package mitarbeiter;
+
+import model.Mitarbeiter;
 
 public class SchichtArbeiter extends Mitarbeiter {
 	private double stundenSatz;

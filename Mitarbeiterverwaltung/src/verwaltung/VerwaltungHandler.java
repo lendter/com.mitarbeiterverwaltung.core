@@ -1,7 +1,11 @@
-package cli;
+package verwaltung;
 
 import java.util.List;
 
+import mitarbeiter.BueroArbeiter;
+import mitarbeiter.Manager;
+import mitarbeiter.SchichtArbeiter;
+import model.Mitarbeiter;
 import verwaltung.*;
 
 public class VerwaltungHandler {

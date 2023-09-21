@@ -1,4 +1,4 @@
-package verwaltung;
+package model;
 
 public abstract class Mitarbeiter {
 	private int id;

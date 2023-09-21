@@ -1,4 +1,4 @@
-package verwaltung;
+package mitarbeiter;
 
 public class Manager extends BueroArbeiter{
 	private double bonusSatz;

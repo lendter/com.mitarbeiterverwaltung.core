@@ -3,6 +3,9 @@ package verwaltung;
 import java.util.ArrayList;
 import java.util.List;
 
+import mitarbeiter.Manager;
+import model.Mitarbeiter;
+
 public class Abteilung {
 	private String name;
 	private List<Mitarbeiter> mitarbeiter;

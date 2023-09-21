@@ -2,6 +2,7 @@ package cli;
 
 import java.util.Scanner;
 
+import mitarbeiter.Manager;
 import verwaltung.*;
 
 public class Program {
